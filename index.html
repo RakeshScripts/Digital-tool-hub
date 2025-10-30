@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Tools Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              'brand-primary': '#1E3A8A', // A deep, trustworthy blue
+              'brand-secondary': '#D97706', // A warm, inviting amber/gold
+              'base-100': '#F9FAFB', // Off-white for background
+              'base-200': '#F3F4F6',
+              'base-300': '#E5E7EB',
+              'text-primary': '#111827',
+              'text-secondary': '#374151',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "recharts": "https://aistudiocdn.com/recharts@^3.3.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.4",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "qrcode": "https://aistudiocdn.com/qrcode@^1.5.3",
+    "pdf-lib": "https://cdn.jsdelivr.net/npm/pdf-lib/dist/pdf-lib.esm.js"
+  }
+}
+</script>
+</head>
+  <body class="bg-base-100 text-text-primary font-sans dark:bg-gray-900 dark:text-gray-200 transition-colors duration-300">
+    <div id="root"></div>
+  </body>
+</html>
